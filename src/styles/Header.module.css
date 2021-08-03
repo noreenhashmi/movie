@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&display=swap");
+.Topbar {
+  width: 100%;
+  font-size: 16px;
+  height: 80px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px #ccc;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  box-sizing: border-box;
+  z-index: 90;
+  padding: 16px 78px;
+  font-family: Open Sans, sans-serif;
+}
+.Logo {
+  width: auto;
+  height: 100%;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.LogoHead {
+  color: #0084ff;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1.08;
+  letter-spacing: -0.9px;
+  text-align: left;
+  width: 130px;
+}
+.LogoPara {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 0.8;
+  letter-spacing: 0.9px;
+  color: #000;
+}
+.ExploreDiv {
+  width: 100%;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  padding: 4px 0;
+  margin: 0 20px 0 40px;
+}
+.RightUl {
+  display: inline-flex;
+  margin: 0;
+  justify-content: space-around;
+  list-style: none;
+  height: 100%;
+  align-items: center;
+}
+.RightLi {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.Categories {
+  font-weight: 500;
+  letter-spacing: 0.9px;
+  cursor: pointer;
+  text-align: center;
+}
+.Categories span {
+  padding-left: 8px;
+}
+.TopbarDetails {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.GrayPara {
+  min-width: 345px;
+  opacity: 0.6;
+  font-family: Raleway, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 7.5px;
+}
+.MainWebsiteBtn {
+  font-size: 12px;
+  padding: 6px 24px;
+  margin-right: 12px;
+  min-width: 136px;
+  height: 40px;
+  word-wrap: break-word;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.36px;
+  background: linear-gradient(269deg, #0048ff, #0096ff);
+}

@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.CardGrid {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.App {
+  margin-top: 100px;
+}
+.LatestPosts {
+  margin: 0;
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.6px;
+  text-align: left;
+  color: #000;
+}
+.FilterSection {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.IconWrapper {
+  display: flex;
+  align-items: center;
+}
+.IconWrapper i {
+  color: #357fc0;
+}
+.FilterCategory {
+  font-weight: 600;
+  margin-left: 6.8px;
+}
+.FilterWrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Filter {
+  padding: 6px 14px;
+  color: #0084ff;
+  background: #fff;
+  font-size: 12px;
+  padding: 6px 18px;
+  border-radius: 15px;
+  border: 1px solid #0084ff;
+  margin: 5px;
+  cursor: pointer;
+}
+.Filter:first-of-type {
+  color: #fff;
+  background-image: linear-gradient(269deg, #0048ff, #0096ff);
+}

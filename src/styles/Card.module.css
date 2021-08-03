@@ -1,0 +1,49 @@
+.Card {
+  width: calc(33% - 18px);
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 168, 255, 0.3);
+  margin: 9px;
+  vertical-align: top;
+}
+.Img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.Heading {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 4px;
+}
+.Author {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(0, 150, 255);
+}
+.Date {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  padding-top: 4px;
+}
+.Description {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(0, 0, 0, 0.5);
+  margin: 4.2px 0;
+  padding-top: 6px;
+  opacity: 0.5;
+  line-height: 1.43;
+  letter-spacing: 0.35px;
+  text-align: left;
+  color: #000;
+}
+.TextSection {
+  padding: 11.2px 24px;
+  height: 180px;
+  white-space: pre-wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+}
